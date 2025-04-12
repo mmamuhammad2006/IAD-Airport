@@ -1,0 +1,63 @@
+/* creating custom classes */
+.bg-primaryy{
+    background: #98bdff0d;
+}
+.txt-black{
+    color: black;
+}
+.text-gray{
+    color: #524f4fd4;
+}
+.text-cyan{
+    color: #1dc9b7 !important;
+}
+.text-purple{
+    color: #574476 !important;
+}
+.bg-hover-transp-white:hover{
+    background-color: #ffffff14;
+}
+.bg-lightPurple{
+    background: #7978e9;
+}
+.bg-purple{
+    background: #574476;
+}
+.bg-cyan{
+    background: #1dc9b7 !important;
+}
+.bg-pink{
+    background: #fd3995;
+}
+.bg-darkParrot{
+    background-color: #5db5bb ;
+}
+.bg-text-hover-purpleLite:hover{
+    background: #57447699 !important;
+    color: white;
+}
+.h-55{
+    height: 50px;
+}
+.h-w-50{
+    height: 50px;
+    width: 50px;
+}
+.h-500{
+    height: 500px ;
+}
+.border-active-none:active{
+    border: 0 !important;
+}
+/* navbar dropdown */
+/* .nav-dropdown {
+    display: none;
+}
+
+.nav-dropdown-parent:hover .nav-dropdown {
+    display: block;
+}
+
+.nav-dropdown li {
+    display: block;
+} */
