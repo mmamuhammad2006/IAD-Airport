@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal !important;
+}
+/* creating custom classess  */
+/* bluring image */
+/* .filter-blur-8{
+    filter: blur(8px) !important;
+}
+.webkit-filter-blur-8{
+    -webkit-filter: blur(8px) !important;
+} */
+/* display contents */
+.d-contents{
+    display: contents !important;
+}
+/* vertical aign middle */
+.vertical-align-middle{
+    vertical-align: middle !important;
+}
+/*  */
+.b-22{
+    bottom: 22px !important;
+}
+/* height */
+.h-30{
+    height: 30px !important;
+}
+.h-50px{
+    height: 50px !important;
+}
+.h-70{
+    height: 70px !important;
+}
+.h-100px{
+    height: 100px !important;
+}
+.h-150{
+    height: 150px !important;
+}
+.h-160{
+    height: 160px !important;
+}
+.h-260{
+    height: 260px !important;
+}
+.h-300{
+    height: 280px !important;
+}
+.h-350{
+    height: 350px !important;
+}
+.h-500{
+    height: 500px !important;
+}
+.w-30{
+    width: 30px !important;
+}
+.w-50px{
+    width: 50px !important;
+}
+.w-100px{
+    width: 100px !important;
+}
+.w-410{
+    width: 410px !important;
+}
+.w-300{
+    width: 300px !important;
+}
+.w-350{
+    width: 350px !important;
+}
+.w-150{
+    width: 150px !important;
+}
+.min-max-h-250{
+    min-height: 250px !important;
+    max-height: 250px !important;
+}
+.min-h-306{
+    min-height: 306px !important;
+}
+.max-h-450{
+    max-height: 450px !important;
+}
+.min-h-450{
+    min-height: 450px !important;
+}
+/* font size */
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-14{
+    font-size:14px !important;
+}
+.fs-17{
+    font-size:17px !important;
+}
+.fs-28{
+    font-size: 28px !important;
+}
+/* object fit cover */
+.object-fit-cover{
+    object-fit: cover !important;
+}
+/* border class */
+.border-b-2-parrot{
+    border-bottom: 2px solid #5db5bb !important;
+}
+.border-parrot{
+    border: 2px solid #5db5bb !important;
+}
+.border-b-t-20-parrot{
+    border-bottom: 20px solid #5db5bb !important;
+    border-top: 20px solid #5db5bb !important;
+}
+.border-b-t-20-purple{
+    border-bottom: 20px solid #9E335D !important;
+    border-top: 20px solid #9E335D !important;
+}
+.border-b-t-20-orange{
+    border-bottom: 20px solid #EE7B22 !important;
+    border-top: 20px solid #EE7B22 !important;
+}
+/* hover */
+.hover-text-black{
+    color: black !important;
+}
+.hover-text-darkParrot:hover{
+    color: #5db5bb !important;
+}
+/* color */
+.text-blury{
+    color: #c29d6e !important;
+}
+.text-purple{
+    color: #9E335D !important;
+}
+.text-parrot{
+    color: #82CCB2 !important;
+}
+.text-orange{
+    color: #EE7B22 !important;
+}
+.text-darkParrot{
+    color: #5db5bb !important;
+}
+/* bg color */
+.bg-black1{
+    background: #1a1d20 !important;
+}
+.bg-blury{
+    background-color: #c29d6e !important;
+}
+.bg-lightGray{
+    background-color: #f4fafb !important;
+}
+.bg-gray{
+    background-color: gainsboro !important;
+}
+.bg-purple{
+    background-color: #9E335D !important;
+}
+.bg-parrot{
+    background-color: #82CCB2 !important;
+}
+.bg-darkParrot{
+    background-color: #5db5bb !important;
+}
+.bg-orange{
+    background-color: #EE7B22 !important;
+}
+.bg-darkBlack{
+    background: #1a1d20 !important;
+}
+/* border-radius */
+.border-radius-10{
+    border-radius: 10px;
+}
+/* linear gradient */
+.grayWhite-linearGradient{
+    background: linear-gradient(to right, #f4fafb, white) !important;
+}
+/* img */
+.img-lightParrot{
+    background: url('images/lightParrot.png');
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    height: 700px !important;
+}
+.img-top-darkParrot, .img-top-purple, .img-top-orange,.img-top-parrot,.img-bottom-darkParrot, .img-bottom-purple, .img-bottom-orange,.img-bottom-parrot{
+    background: round;
+    position: relative !important;
+    bottom: 1px !important;
+}
+.img-top-darkParrot{
+    background-image: url(images/darkParrotTop.png) !important;
+    top: 1px !important;
+
+}
+.img-bottom-darkParrot{
+    background-image: url(images/darkParrotBottom.png) !important;
+}
+.img-top-purple{
+    background-image: url(images/purpleTop.png) !important;
+    top: 1px !important;
+
+}
+.img-bottom-purple{
+    background-image: url(images/purpleBottom.png) !important;
+}
+.img-top-orange{
+    background-image: url(images/orangeTop.png) !important;
+    top: 1px !important;
+
+}
+.img-bottom-orange{
+    background-image: url(images/orangeBottom.png) !important;
+}
+.img-top-parrot{
+    background-image: url(images/parrotTop.png) !important;
+    top: 1px !important;
+
+}
+.img-bottom-parrot{
+    background-image: url(images/parrotBottom.png) !important;
+}
+.img-black{
+    background: url('images/all-scratch-black.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.img-sm-black{
+    background: url('images/min-black.PNG') !important;
+    display: inline-block !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+}
+.bg-img-fixed{
+    background: url('images/t5.jpg');
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover ;
+    background-position: center ;
+    position: relative;
+}
+.bg-img-fixed::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+}
+/* cursor pointer */
+.cursor-pointer{
+    cursor: pointer !important;
+}
+/* text overflow  */
+.text-overflow-ellipsis{
+    text-overflow: ellipsis !important;
+}
+.white-space-nowrap{
+    white-space: nowrap !important;
+}
+/* transform-origin-center */
+.transform-origin-center{
+    transform-origin: center ;
+    display: inline-block !important;
+}
+/* hero section*/
+.line-hover , .white-line-hover{
+    position: relative;
+}
+.line-hover::before{
+    content: '';
+    position: absolute ;
+    left: 0 ;
+    height: 3px ;
+    width: 100% ;
+    transition: transform 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform-origin: left center;
+    bottom: 0px ;
+    transform: scaleX(0);
+}
+.white-line-hover::before{
+    content: '';
+    position: absolute ;
+    left: 0 ;
+    height: 3px ;
+    width: 100% ;
+    transition: transform 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform-origin: left center;
+    bottom: 22px ;
+    transform: scaleX(0);
+}
+.white-line-hover:hover::before{
+    background-color: white ;
+    transform: scaleX(1);
+}
+.purple-line-hover::before{
+    background-color: #9E335D ;
+}
+.line-hover:hover::before{
+    transform: scaleX(1);
+}
+/* custom hover zoom class */
+.hover-zoom{
+    position: relative ;
+    transition: all .2s ease-in-out !important;
+
+}
+.hover-zoom:hover{
+    transform: scale(1.05) !important;
+}
+input:focus{
+    border: none !important;
+    outline: 2px solid #ee7b22 !important;
+    box-shadow: none !important;
+}
+.form-control:focus{
+    border: none !important;
+    outline: 2px solid #5db5bb !important;
+    box-shadow: none !important;
+}
+.bg-img::before{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('images/DullesAirport.jpg');
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    filter: blur(5px) !important;
+    -webkit-filter: blur(5px) !important;
+    z-index: -1 !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 110% !important;
+    width: 110% !important;
+    left: -5% !important;
+    top: -5% !important;
+    /* background-position: center !important;
+    background-size: cover !important;
+    background-blend-mode: multiply !important; */
+}
+.hero-sec-title{
+    font-size: 50px !important;
+    font-weight: 700 !important;
+}
+
+.search-sec{
+    bottom: 25px !important;
+}
+.hotel-img{
+    max-height: 268px !important;
+    min-height: 268px !important;
+}
+.scroll{
+    height: 40px !important;
+    width: 40px !important;
+    cursor: pointer !important;
+}
+.images-cont{
+    flex-wrap: nowrap !important;
+    overflow: hidden !important;
+}
+.card-div{
+    height: 370px !important;
+}
+/* animation on scroll */
+.airport1-a1{
+    opacity: 0;
+}
+.airport1-a1.animate__animated{
+    opacity: 1;
+}
+.airport2-a2{
+    opacity: 0;
+}
+.airport2-a2.animate__animated{
+    opacity: 1;
+}
+.c1-a1{
+    opacity: 0;
+}
+.c1-a1.animate__animated{
+    opacity: 1;
+}
+.c1-a2{
+    opacity: 0;
+}
+.c1-a2.animate__animated{
+    opacity: 1;
+}
+.c1-a3{
+    opacity: 0;
+}
+.c1-a3.animate__animated{
+    opacity: 1;
+}
+.c1-a4{
+    opacity: 0;
+}
+.c1-a4.animate__animated{
+    opacity: 1;
+}
+.c1-a5{
+    opacity: 0;
+}
+.c1-a5.animate__animated{
+    opacity: 1;
+}
+/* benefits of airport */
+.c2-a1{
+    opacity: 0;
+}
+.c2-a1.animate__animated{
+    opacity: 1;
+}
+.c2-a2{
+    opacity: 0;
+}
+.c2-a2.animate__animated{
+    opacity: 1;
+}
+.c2-a3{
+    opacity: 0;
+}
+.c2-a3.animate__animated{
+    opacity: 1;
+}
+.navbar-toggler-icon{
+    background-image: url('images/barIcon.png') !important;
+}
+.navbar-toggler{
+    color: transparent !important;
+    border: transparent !important;
+}
+/* navbar dropdown */
+.nav-dropdown {
+    display: none; /* Hidden by default */
+}
+
+.nav-dropdown-parent:hover .nav-dropdown {
+    display: block; /* Show on hover of the parent */
+}
+
+.nav-dropdown li {
+    display: block;
+}
+
+/* For about us page*/
+/* border */
+.border-darkParrot{
+    border-color: #5db5bb !important;
+}
+.border-purple{
+    border-color: #9E335D !important;
+}
+.border-orange{
+    border-color: #ee7b22 !important;
+}
+.bg-darkParrot-hover ,.bg-purple-hover ,.bg-white-hover ,.bg-orange-hover{
+    position: relative;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.bg-darkParrot-hover::before ,.bg-purple-hover::before ,.bg-white-hover::before ,.bg-orange-hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: transform 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform-origin: left center;
+    transform: scaleX(0);
+    border-radius: inherit; /* Inherit the border-radius */
+}
+.bg-white-hover:hover::before {
+    transform: scaleX(1);
+    background: #fff;
+}
+.bg-darkParrot-hover:hover::before {
+    transform: scaleX(1);
+    background: #5db5bb;
+}
+.bg-purple-hover:hover::before{
+    transform: scaleX(1) !important;
+    background: #9E335D !important;
+}
+.bg-orange-hover:hover::before{
+    transform: scaleX(1) !important;
+    background: #EE7B22 !important;
+}
+.bg-darkParrot-hover:hover ,.bg-purple-hover:hover, .bg-white-hover:hover ,.bg-orange-hover:hover{
+    color: white !important;
+    font-weight: 600;
+}
+.bg-white-hover:hover{
+    color: black !important;
+}
+
+.links-cont{
+    background-image: url('images/darkParrot.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+/* ContactUs */
+.contact-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/contactUs.jpg);
+}
+.terms-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/termsOfUse.jpg);
+}
+.hotels-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/bg-hotels.avif);
+}
+.resturants-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/bg-resturants.jpg);
+}
+.carRentals-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/carRental.jpg);
+}
+.transportations-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/transportation.png);
+}
+.lounges-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/lounges.jfif);
+}
+.parkings-img::before{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(images/bg-parkings.jpg);
+}
+.parkings-img::before, .contact-img::before, .terms-img::before, .hotels-img::before, .resturants-img::before, .carRentals-img::before, .transportations-img::before, .lounges-img::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    filter: blur(5px) !important;
+    -webkit-filter: blur(5px) !important;
+    z-index: -1 !important; /* Ensure this pseudo-element is behind the content */
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    left: -5% !important;
+    top: -5% !important;
+    bottom: -5% !important;
+    right: -5% !important;
+}
+
+.navbar-dropdown{
+    overflow:hidden;
+}
+/* media query */
+@media screen and (max-width: 991px) {
+    #map-img-id1{
+        max-height: 550px !important;
+        overflow: hidden !important;
+    }
+    #map-img-id1 img{
+        transition: transform 0.1s ease;
+        transform-origin: center center;
+    }
+    #map-img-id2{
+        max-height: 550px !important;
+        overflow: hidden !important;
+    }
+    #map-img-id2 img{
+        transition: transform 0.1s ease;
+        transform-origin: center center;
+    }
+    .navbar-dropdown{
+        transform: translateY(-500px);
+        height: 0px;
+        transition:all .5s ease-in-out;
+
+    }
+    .navbar-show{
+        transform: translateY(0px);
+        height: 420px !important;
+        /* overflow: auto !important;
+        scrollbar-width: none !important;  */
+    }
+    .navbar-cont{
+        position: fixed !important;
+        left: 0;
+        right: 0;
+        background-color: #5db5bb !important;
+        z-index: 1;
+    }
+    .navbar-brand{
+        color: white !important;
+        background-color: #5db5bb !important;
+    }
+    .grayWhite-linearGradient{
+        background: linear-gradient(to bottom, #f4fafb, white) !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .fs-45{
+        font-size: 45px !important;
+    }
+  }
+@media screen and (max-width: 575px) {
+
+    .scroll{
+        height: 25px !important;
+        width: 25px !important;
+        font-size: 13px !important;
+        cursor: pointer !important;
+    }
+  }
+.text-truncate-line3 {
+    position: relative; /* Ensure positioning context for the pseudo-element */
+    overflow: hidden;   /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
+
+.text-truncate-line3 .col-12 {
+    display: -webkit-box; /* Use Flexbox model for multi-line truncation */
+    -webkit-line-clamp: 3; /* Number of lines to display before truncating */
+    -webkit-box-orient: vertical; /* Set orientation to vertical */
+    overflow: hidden; /* Hide overflowed content */
+    text-overflow: ellipsis; /* Show ellipsis for overflowed content */
+}
+
+/* Optional: Ensure proper box-sizing */
+.text-truncate-line3, .para * {
+    box-sizing: border-box;
+}
